@@ -3,7 +3,9 @@ Simple commands to insert in .htaccess
 
 ## 301 Redirects for .htaccess
 ### Redirect a single page
+``` 
 Redirect 301 /pagename.php http://www.domain.com/pagename.html
+```
 
 ### Redirect an entire site
 Redirect 301 / http://www.domain.com/
