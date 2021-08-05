@@ -1,4 +1,4 @@
-# htaccess
+# .htaccess
 Simple commands to insert in .htaccess
 
 ## 301 Redirects for .htaccess
@@ -20,6 +20,13 @@ Redirect 301 /subfolder http://www.domain.com/
         Order allow,deny
         Deny from all
 </Files>
+
+### Deny All Access
+#### Apache 2.2
+Deny from all
+
+#### Apache 2.4
+Require all denied
 
 ### Redirect to HTTPS
 RewriteEngine On
